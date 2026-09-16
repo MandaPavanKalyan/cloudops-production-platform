@@ -24,11 +24,11 @@ User → Application Load Balancer → EC2 Instances → Dockerized Python Flask
 
 ## Project Roadmap
 
-- [ ] Build a local Python Flask application
-- [ ] Add health-check and API endpoints
+- [x] Build a local Python Flask application
+- [x] Add health-check and API endpoints
 - [ ] Connect the application to PostgreSQL
 - [ ] Containerize the application using Docker
-- [ ] Add automated testing
+- [x] Add automated testing
 - [ ] Create a GitHub Actions CI/CD pipeline
 - [ ] Deploy the application to AWS
 - [ ] Provision AWS infrastructure using Terraform
@@ -39,3 +39,4 @@ User → Application Load Balancer → EC2 Instances → Dockerized Python Flask
 ## Current Status
 
 Stage 0: Repository setup and project planning.
+Stage 1 completed: Flask application, health-check endpoint, automated setup, and endpoint tests.
