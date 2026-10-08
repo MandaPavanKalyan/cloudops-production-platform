@@ -40,3 +40,22 @@ User → Application Load Balancer → EC2 Instances → Dockerized Python Flask
 
 Stage 0: Repository setup and project planning.
 Stage 1 completed: Flask application, health-check endpoint, automated setup, and endpoint tests.
+## Smoke Test
+
+Start the Flask application:
+
+```bash
+.venv/bin/python app.py
+```
+
+In another terminal, verify the health endpoint:
+
+```bash
+./scripts/smoke-test.sh
+```
+
+A successful response should be:
+
+```json
+{"status":"healthy"}
+```
